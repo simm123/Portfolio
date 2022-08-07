@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 *{
-    background: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+:root{
+    --black: rgb(17, 18, 19);
+    --white: #fff;
+}
+
+.main{
+    position: relative;
+    min-height: 100vh;
+    background-color: red;
+    background: linear-gradient(#3ccccc, #555555);
 }
