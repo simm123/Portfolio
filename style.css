@@ -16,5 +16,5 @@
     position: relative;
     min-height: 100vh;
     background-color: red;
-    background: linear-gradient(#3ccccc, #555555);
+    background: linear-gradient(#3ccccc, red);
 }
