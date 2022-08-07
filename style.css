@@ -9,34 +9,75 @@
 
 :root{
     --black: rgb(17, 18, 19);
+    --grey: rgb(47, 47, 47);
     --white: #fff;
+}
+
+header{
+    /*TODO position: fixed?*/
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 45px;
+    z-index: 1000;
+}
+
+header .logo{
+    color: rgb(255, 107, 107);
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header ul{
+    display: flex;
+    position: relative;
+}
+
+header ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul li a{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: var(--white);
 }
 
 .banner{
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(#2f2f2f, #000000);
+    background: linear-gradient(var(--grey), var(--black));
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .banner h2{
-    font-size: 2em;
+    font-size: 3em;
     color: var(--white);
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 .banner h3{
-    font-size: 2.5em;
-    font-weight: 1000;
+    font-size: 3.4em;
+    font-weight: 900;
+    transform: translate(-10px);
     color: rgb(255, 107, 107);
 }
 
 .main{
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(#2f2f2f, #000000);
+    background: linear-gradient(var(--black), var(--grey));
     padding: 30px 100px;
     display: flex;
     justify-content: center;
