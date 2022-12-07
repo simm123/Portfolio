@@ -13,6 +13,10 @@
     --white: #fff;
 }
 
+ul{
+    list-style: none;
+}
+
 header{
     /*TODO position: fixed?*/
     position: fixed;

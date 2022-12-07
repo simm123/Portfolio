@@ -1,4 +1,41 @@
+:root{
+    --black: rgb(0, 0, 0);
+    --grey: rgb(47, 47, 47);
+    --g: red, blue;
+    --r: 15px;
+}
+
+a, p, li, h2, h3{
+    color: white;
+}
 
 section:nth-child(1){
-    background-color: rgb(179, 179, 179);
+    background: linear-gradient(var(--grey), var(--black));
+}
+
+section:nth-child(2){
+    background: linear-gradient(var(--black), var(--grey));
+}
+
+#links ul{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#links ul li{
+    padding: 0 2vw 0 2vw;
+}
+
+#links ul li a .invert{
+    border-radius: 50%;
+    background-color: white;
+    filter: invert(1);
+}
+
+#links ul li a img {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
 }
