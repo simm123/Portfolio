@@ -1,0 +1,18 @@
+#canvas{
+    position: absolute;
+    background-color: aqua;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

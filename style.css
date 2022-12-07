@@ -84,3 +84,7 @@ header ul li a{
     align-items: center;
     flex-direction: column;
 }
+
+section{
+    min-height: 100vh;
+}
